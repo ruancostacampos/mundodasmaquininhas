@@ -88,6 +88,11 @@
     padding-top: 103px;
 }
 
+.action{
+    font-size: 1.4rem;
+    padding: 32px;
+}
+
 @media only screen and (max-width: 970px){
     
     .advantages{
