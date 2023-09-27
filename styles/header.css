@@ -52,7 +52,12 @@ header .logo
 }
 
 header .logo img{
-    width: 64px;
+    transform: translateY(28px);
+    width: 180px;
+}
+
+header .logo p{
+    display: none;
 }
 
 
@@ -268,6 +273,15 @@ section
     }
     .contactform {
         padding: 40px 30px;
+    }
+
+    header .logo img{
+        transform: translateY(0);
+        width: 64px;
+    }
+
+    header .logo p{
+        display: block;
     }
 
 }
